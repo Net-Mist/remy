@@ -10,7 +10,7 @@ RECIPE_CATEGORIES = {
 def main():
     parser = argparse.ArgumentParser("create a new recipe")
     parser.add_argument("--name", type=str, help="name of the recipe")
-    parser.add_argument("--kind", type=int , help="1: entrées, 2: plats, 3: desserts")
+    parser.add_argument("--kind", type=int , help="1: entrées, 2: plats, 3: desserts", required=True)
     parser.add_argument("--source", type=str , help="source of the recipe (website, book...)")
     parser.add_argument("--time", type=str, help="estimated time to prepare the meal")
     args = parser.parse_args()

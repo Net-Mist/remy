@@ -9,3 +9,9 @@ This repo contains a list of French cooking recipes.
 
 # Presentation
 The goal is to have a single repo containing all recipes, in a format allowing any kind of scripting, automation, and human editing. To achieve this goal, recipes are coded in [cooklang](https://cooklang.org/)
+
+
+# TODO
+* miss pain burger
+* continue at "ile flottantes"
+* add star system
